@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+        nmapchal:
+                build: .
+                hostname: 'nmapchal'
+                ports:
+                - "28064:28064"
+                restart: 'always'
+
